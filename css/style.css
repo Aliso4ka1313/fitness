@@ -83,8 +83,11 @@ body {
 	line-height: 19px;
 	color: #2c2c2c; 
 }
-.clearfix {
+.clearfix:after {
+	content: " ";
 	clear: both;
+	display:block;
+
 }
 
 .links {
