@@ -18,6 +18,8 @@ body {
 .main_menu li {
 	display: inline-block;
 	line-height: 40px;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
 }
 .main_menu a {
 	display: block;
